@@ -4,7 +4,7 @@
   "description": "this repository is use to transfer data from excel file to database",
   "main": "app.js",
   "scripts": {
-    "test": "node ./bin/www"
+    "start": "node ./bin/www"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "debug": "^3.1.0",
+    "excel": "^0.1.7",
     "express": "^4.16.2",
     "morgan": "^1.9.0",
     "path": "^0.12.7"

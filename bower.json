@@ -1,0 +1,17 @@
+{
+  "name": "data-transfer-from-excel-to-database",
+  "description": "this repository is use to transfer data from excel file to database",
+  "main": "app.js",
+  "authors": [
+    "raviguru007 <raviguru@goparties.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
