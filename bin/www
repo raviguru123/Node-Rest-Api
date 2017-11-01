@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+ var route=require("../routes/read_files.js");
 
  var app = require('../app');
  var debug = require('debug')('express-generator:server');
@@ -12,6 +13,9 @@
 /**
  * Get port from environment and store in Express.
  */
+ console.log("process.argv",process.argv);
+
+
 
  var port = normalizePort(process.env.PORT || '3000');
  app.set('port', port);
@@ -31,6 +35,7 @@
     console.log(err);
     return;
   }
+  route.readAllFiles();
   console.log("server is starting port",port);
 });
  server.on('error', onError);
